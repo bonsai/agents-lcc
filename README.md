@@ -1,8 +1,8 @@
-# agens-llc
+# agents-lcc
 
 **AI Agent Lifecycle Cost Intelligence — from first token to long-term maintenance.**
 
-agens-llc is a proposed SaaS platform for measuring, explaining, and reducing the total lifecycle cost of AI-assisted software development. It connects model usage, multi-agent orchestration, MCP/tool calls, automated evaluation, human review, infrastructure, and post-release maintenance into one traceable cost ledger.
+agents-lcc is a proposed SaaS platform for measuring, explaining, and reducing the total lifecycle cost of AI-assisted software development. It connects model usage, multi-agent orchestration, MCP/tool calls, automated evaluation, human review, infrastructure, and post-release maintenance into one traceable cost ledger.
 
 > **Status: Research / MVP planning.** This repository currently defines the product direction and implementation backlog. Features described below are goals, not claims that a production service is already available.
 
@@ -10,7 +10,7 @@ agens-llc is a proposed SaaS platform for measuring, explaining, and reducing th
 
 Token counts alone do not tell you whether an AI workflow is economical. A cheaper run may fail acceptance tests, require several repair cycles, consume more reviewer time, or create higher maintenance costs later.
 
-agens-llc aims to answer:
+agents-lcc aims to answer:
 
 - What did it cost to deliver a quality-qualified software change?
 - Which lifecycle phase, model, agent, MCP tool, or evaluation step drove the cost?
@@ -153,7 +153,7 @@ Pricing, service tiers, availability guarantees, and a hosted signup flow are **
 6. Reconcile estimates against provider usage exports and actual bills.
 7. Add the SaaS dashboard and production-grade tenant/security controls after the measurement core is validated.
 
-The initial implementation backlog is tracked in [GitHub Issues](https://github.com/bonsai/agens-llc/issues).
+The initial implementation backlog is tracked in [GitHub Issues](https://github.com/bonsai/agents-lcc/issues).
 
 ## Development status
 
